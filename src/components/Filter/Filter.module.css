@@ -1,0 +1,25 @@
+.input {
+  padding-left: 24px;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  border: solid 1px lightskyblue;
+}
+
+.input:hover + .searchIcon,
+.input:focus + .searchIcon {
+  fill: lightskyblue;
+}
+
+.searchIcon {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+.labelTitle {
+  position: relative;
+  margin-bottom: 10px;
+}
